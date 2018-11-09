@@ -17,7 +17,7 @@ def hello(event, context):
         "statusCode": 200,
         "body": json.dumps(body)
     }
-    webhookurl = "https://hooks.slack.com/services/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"
+    webhookurl = "{}" # webhook url
     data = {
         "attachments": [
             {
